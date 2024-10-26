@@ -1,0 +1,19 @@
+.Addbtn{
+   @apply w-[32px] h-[32px] relative
+   border-[2px] border-[#888888] rounded-[50%];
+   background-color: transparent;
+}
+.Addbtn:enabled:hover{
+   background: linear-gradient(150deg, #73b9f9 30%, #9c83f4 65%);
+}
+.Addbtn:enabled:hover::after{
+@apply border-[#fff];
+}
+
+.Addbtn:enabled:after{
+   @apply border-b-2 border-l-2 border-[#888888] dark:border-[#fff]
+   content-[''] opacity-100
+   w-3 h-[6px]
+   absolute left-[8.25px] top-[10px]
+   rotate-[-45deg];
+}

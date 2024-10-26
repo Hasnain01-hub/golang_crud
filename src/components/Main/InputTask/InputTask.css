@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway:wght@100&display=swap');
+.Task{
+   @apply bg-white dark:bg-[#25273c] dark:text-white
+   flex p-4 px-6 gap-x-5
+   rounded-[5px] mb-[20px];
+   font-family: 'Quicksand', sans-serif;
+}
+
+.Task input[type='text']{
+   @apply dark:bg-[#25273c]
+   text-[25px] h-[32px] w-[85%];
+   
+}
+.Task input[type='text']:focus{
+   @apply outline-none;
+   
+}

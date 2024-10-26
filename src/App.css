@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.App {
+  @apply h-screen flex justify-center;
+
+}

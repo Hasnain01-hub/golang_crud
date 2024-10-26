@@ -1,0 +1,4 @@
+.tasklist{
+   @apply bg-white dark:bg-[#25273c] dark:text-[white]
+   rounded-t-[5px];
+}

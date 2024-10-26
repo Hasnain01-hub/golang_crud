@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway:wght@100&display=swap');
+.task{
+   @apply flex p-4 px-6 gap-x-5 items-center justify-between
+   dark:text-white text-black text-[25px]
+   border-b-[1px] border-[#888888] top-auto;
+   font-family: 'Quicksand', sans-serif;
+   
+}
+.task div{
+   @apply flex gap-x-5 items-center;
+}
+.task:hover .Rmvbtn::after{
+   @apply block;
+}
+.Rmvbtn::after{
+   @apply hidden;
+   content: url('../../../../../images/icon-cross.svg');
+   
+}
+.completed{
+
+   @apply text-[#888888] !important ;
+   @apply line-through;
+}

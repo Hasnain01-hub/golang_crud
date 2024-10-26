@@ -1,0 +1,23 @@
+.mainContainer {
+   @apply absolute flex-col 
+   w-[720px] max-md:w-[90%] top-[100px];
+}
+@media (min-width: 767px) {
+   .mainContainer::after{
+      content: "";
+      @apply absolute z-[-2] top-0 translate-x-[-4.5%]
+      dark:bg-[#161620] 
+      h-[100%] w-[110%] rounded-[35px];
+   }
+}
+.header{
+   @apply flex justify-between items-center mb-[25px];
+}
+.header p {
+   @apply text-white text-[35px] font-[600]
+   tracking-[10px];
+}
+.footer{
+   @apply text-[#888888] text-center mt-[50px];
+   font-family: 'Quicksand', sans-serif;
+}

@@ -1,0 +1,39 @@
+.controls{
+   @apply flex py-4 px-6;
+}
+.controls::after{
+   content: "";
+   @apply absolute left-0 translate-x-[5.5%] w-[90%] h-[50px]
+   bg-gray-300 z-[-1] blur-[25px]
+   dark:bg-black dark:w-[80%] dark:translate-x-[12.5%] dark:h-[40px];
+
+}
+.colors{
+   @apply bg-white dark:bg-[#25273c] text-[#888888];
+}
+.large{
+   @apply justify-between;
+}
+.small div:first-child{
+   @apply mb-5 rounded-b-[5px] py-4 px-6 flex justify-between
+}
+.small div:last-child{
+   @apply rounded-[5px] py-4 px-6 flex justify-center
+}
+.clear-complete{
+   @apply hover:text-black dark:hover:text-white;
+}
+.filters{
+   @apply flex gap-5 min-[767px]:ml-[25px]
+
+}
+.filters input{
+   @apply hidden 
+}
+.filters input:checked + label{
+   @apply text-[#4272dc];
+   
+}
+.filters label{
+   @apply cursor-pointer font-bold
+}
