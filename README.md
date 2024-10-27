@@ -11,13 +11,13 @@
 ## Technology stack
 
 1. React JS
-2. Node JS
+2. Golang
 3. Tailwind CSS
-4. OAuth
+4. OAuth, JWT
 
 ## Link
 
-- Working: [Link](https://drive.google.com/file/d/1wYZZYaimcFgiCZWNhh3GoK1UjHysW9Ap/view?usp=sharing)
+- Working(Node js version): [Link](https://drive.google.com/file/d/1wYZZYaimcFgiCZWNhh3GoK1UjHysW9Ap/view?usp=sharing)
 
 ## Output
 
